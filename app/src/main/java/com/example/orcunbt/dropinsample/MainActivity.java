@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Initialize PayPal fragment when a client-token is successfully retrieved
+    // Initialize DropInRequest
     protected void onAuthorizationFetched() {
         DropInRequest dropInRequest = new DropInRequest()
                 .clientToken(token);
